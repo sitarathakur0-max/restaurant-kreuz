@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-alpine-950: #121E27;
+  --color-alpine-900: #1B2E3B;
+  --color-alpine-800: #243E4F;
+  --color-alpine-700: #2F5067;
+  --color-alpine-600: #3E647F;
+  --color-alpine-100: #E8F0F5;
+  --color-alpine-50: #F3F7FA;
+
+  --color-cream-50: #FAF7F2;
+  --color-cream-100: #F4EFEA;
+  --color-cream-200: #ECE4DA;
+  --color-cream-300: #DFD5C7;
+  --color-cream-400: #C7B9A5;
+
+  --color-swissred-900: #6B1616;
+  --color-swissred-800: #821D1D;
+  --color-swissred-700: #9B2424;
+  --color-swissred-600: #B52C2C;
+  --color-swissred-100: #FCE8E8;
+
+  --color-timber-950: #261910;
+  --color-timber-900: #3A261A;
+  --color-timber-800: #4E3424;
+  --color-timber-700: #644430;
+  --color-timber-600: #7E573E;
+  --color-timber-100: #F2ECE7;
+}
+
+/* Swiss Cross Geometric Grid Utility */
+.swiss-cross-pattern {
+  background-image: radial-gradient(#2F5067 0.75px, transparent 0.75px);
+  background-size: 20px 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #242A30;
+  background-color: #FAF7F2;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+

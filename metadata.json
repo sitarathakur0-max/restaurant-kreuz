@@ -1,0 +1,7 @@
+{
+  "name": "Restaurant Kreuz",
+  "description": "Website for Restaurant Kreuz, a local Swiss-style village restaurant in Gossliwil, Switzerland.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
